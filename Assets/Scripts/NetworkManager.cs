@@ -9,7 +9,7 @@ public class NetworkManager : MonoBehaviour
 	public double btnW;
 	public double btnH;
 
-	public GameObject playerPrefab;
+	//public GameObject playerPrefab;
 	public Transform spawnObject;
 
 	// servers found
@@ -64,18 +64,18 @@ public class NetworkManager : MonoBehaviour
 	void OnServerInitialized()
 	{
 		Debug.Log("Server initialized");
-		AddPlayer();
+		//AddPlayer();
 	}
 
 	void OnConnectedToServer()
 	{
-		AddPlayer();
+		//AddPlayer();
 	}
 
 	// add a new player at the start position
 	void AddPlayer()
 	{
-		Network.Instantiate( playerPrefab, spawnObject.position, Quaternion.identity, 0 );
+		//Network.Instantiate( playerPrefab, spawnObject.position, Quaternion.identity, 0 );
 	}
 
 	void OnMasterServerEvent(MasterServerEvent mse)

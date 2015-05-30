@@ -14,25 +14,121 @@ Platform assembly: C:\Users\bennett\DIR\PROGRAMMING\UNITY\MobileGameDemo\Main_Da
 Loading C:\Users\bennett\DIR\PROGRAMMING\UNITY\MobileGameDemo\Main_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\bennett\DIR\PROGRAMMING\UNITY\MobileGameDemo\Main_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\bennett\DIR\PROGRAMMING\UNITY\MobileGameDemo\Main_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.036 seconds
+- Completed reload, in  0.045 seconds
 desktop: 1920x1080 120Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\bennett\DIR\PROGRAMMING\UNITY\MobileGameDemo\Main_Data\Managed\System.Core.dll (this message is harmless)
 Setting up 3 worker threads for Enlighten.
-  Thread -> id: 2b98 -> priority: 1 
-  Thread -> id: 286c -> priority: 1 
-  Thread -> id: 1724 -> priority: 1 
-Starting server
+  Thread -> id: dc8 -> priority: 1 
+  Thread -> id: 1de4 -> priority: 1 
+  Thread -> id: 20a4 -> priority: 1 
+Refreshing
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
-Server initialized
+Waiting for server list
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
-Registration succeeded
+Game name: Mobile Game Demo
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Network:INTERNAL_CALL_Instantiate (UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&,int)
+  at UnityEngine.Network.Instantiate (UnityEngine.Object prefab, Vector3 position, Quaternion rotation, Int32 group) [0x00000] in <filename unknown>:0 
+  at NetworkManager.AddPlayer () [0x00000] in <filename unknown>:0 
+  at NetworkManager.OnConnectedToServer () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+The server has disconnected from the client. Most likely the server has shut down.
+ 
+(Filename:  Line: 754)
+
+Refreshing
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Waiting for server list
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Game name: Mobile Game Demo
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Refreshing
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Waiting for server list
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Game name: Mobile Game Demo
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Network:INTERNAL_CALL_Instantiate (UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&,int)
+  at UnityEngine.Network.Instantiate (UnityEngine.Object prefab, Vector3 position, Quaternion rotation, Int32 group) [0x00000] in <filename unknown>:0 
+  at NetworkManager.AddPlayer () [0x00000] in <filename unknown>:0 
+  at NetworkManager.OnConnectedToServer () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+The server has disconnected from the client. Most likely the server has shut down.
+ 
+(Filename:  Line: 754)
+
+Refreshing
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Waiting for server list
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Game name: Mobile Game Demo
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Network:INTERNAL_CALL_Instantiate (UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&,int)
+  at UnityEngine.Network.Instantiate (UnityEngine.Object prefab, Vector3 position, Quaternion rotation, Int32 group) [0x00000] in <filename unknown>:0 
+  at NetworkManager.AddPlayer () [0x00000] in <filename unknown>:0 
+  at NetworkManager.OnConnectedToServer () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+The server has disconnected from the client. Most likely the server has shut down.
+ 
+(Filename:  Line: 754)
+
+Refreshing
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Waiting for server list
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Game name: Mobile Game Demo
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Network:INTERNAL_CALL_Instantiate (UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&,int)
+  at UnityEngine.Network.Instantiate (UnityEngine.Object prefab, Vector3 position, Quaternion rotation, Int32 group) [0x00000] in <filename unknown>:0 
+  at NetworkManager.AddPlayer () [0x00000] in <filename unknown>:0 
+  at NetworkManager.OnConnectedToServer () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+The server has disconnected from the client. Most likely the server has shut down.
+ 
+(Filename:  Line: 754)
 
