@@ -5,11 +5,10 @@ public class Controls : MonoBehaviour {
 	
 	public Camera playerCamera;
 	public Camera observerCamera;
-
-
-
+	
 	// Use this for initialization
 	void Start () {
+
 	}
 	
 	// Update is called once per frame
@@ -19,7 +18,6 @@ public class Controls : MonoBehaviour {
 		{
 			playerCamera.enabled = true;
 			observerCamera.enabled = false;
-
 		} 
 		else
 		{

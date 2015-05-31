@@ -42,8 +42,11 @@ public class PlayerBrain : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		NetworkView nView = GetComponent<NetworkView>();
+		if (nView.isMine) {
+			checkInput ();
+		}
 
-		checkInput ();
 		movePlayer ();
 
 		positions.changePosition ();
