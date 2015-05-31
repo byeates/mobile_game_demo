@@ -2,20 +2,15 @@
 using System.Collections;
 
 public class Controls : MonoBehaviour {
-	public float turnSpeed = 2.0f;
-	public float speed = 10.0f;
-
+	
 	public Camera playerCamera;
 	public Camera observerCamera;
 
 	// delta time
 	private float _dt;
 
-	public CharacterController cc;
-
 	// Use this for initialization
 	void Start () {
-		cc = GetComponent<CharacterController> ();
 	}
 	
 	// Update is called once per frame
@@ -30,19 +25,7 @@ public class Controls : MonoBehaviour {
 
 			#if UNITY_EDITOR || UNITY_STANDALONE
 			
-			if ( Input.GetButton( "Horizontal" ) && Input.GetAxis( "Horizontal" ) < 0 )
-			{
-				TurnLeft();
-			} else if ( Input.GetButton( "Horizontal" ) && Input.GetAxis( "Horizontal" ) > 0 )
-			{
-				TurnRight();
-			} else if ( Input.GetButton( "Vertical" ) && Input.GetAxis( "Vertical" ) > .001f )
-			{
-				Forward();
-			} else if ( Input.GetButton( "Vertical" ) )
-			{
-				Back();
-			}
+
 			
 			//transform.Translate(Input.GetAxis ("Mouse X") * strafeSpeed * Time.deltaTime, 0f, 0f);
 			
@@ -58,24 +41,5 @@ public class Controls : MonoBehaviour {
 			observerCamera.enabled = true;
 		}
 	}
-
-	public void Forward()
-	{
-		transform.Translate( 0, 0, speed * Time.deltaTime );
-	}
-
-	public void Back()
-	{
-		transform.Translate( 0, 0, -speed * Time.deltaTime );
-	}
-
-	public void TurnLeft()
-	{
-		transform.Rotate (0f, -turnSpeed, 0f);
-	}
 	
-	public void TurnRight()
-	{
-		transform.Rotate (0f, turnSpeed, 0f);
-	}
 }
