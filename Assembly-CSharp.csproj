@@ -49,10 +49,9 @@
      <Compile Include="Assets\Scripts\Controls.cs" />
      <Compile Include="Assets\Scripts\MazeScript.cs" />
      <Compile Include="Assets\Scripts\NetworkManager.cs" />
-     <Compile Include="Assets\WaddleScripts\PlayerAnimations.cs" />
-     <Compile Include="Assets\WaddleScripts\PlayerBrain.cs" />
-     <Compile Include="Assets\WaddleScripts\PlayerController.cs" />
-     <Compile Include="Assets\WaddleScripts\PlayerPositions.cs" />
+     <Compile Include="Assets\Scripts\WaddleScripts\PlayerAnimations.cs" />
+     <Compile Include="Assets\Scripts\WaddleScripts\PlayerBrain.cs" />
+     <Compile Include="Assets\Scripts\WaddleScripts\PlayerPositions.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

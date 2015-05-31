@@ -11,20 +11,17 @@ public class PlayerBrain : MonoBehaviour {
 	public GameObject rightFoot;
 
 
-	public int health;
+
 	public bool inputLocked;
 	public bool jumpLocked;
-	private bool isFalling = false;
 	private bool isWalking 	= false;
 
 	private float turning 	= 0;
 	private float turnSpeed = 2f;
 	private float moveSpeed = 0;
 	private float walkSpeed = 2f;
+	
 
-	private float currentHeight;
-	private float lastHeight;
-	public string playerName;
 
 	private float backupSpeed = -2f;
 
@@ -34,9 +31,7 @@ public class PlayerBrain : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		currentHeight = 0;
-		lastHeight = 0;
-		health = 10;
+
 		positions = gameObject.AddComponent<PlayerPositions>();
 		animation = gameObject.AddComponent<PlayerAnimations>();
 		animation.setPositions (positions);
@@ -53,15 +48,6 @@ public class PlayerBrain : MonoBehaviour {
 
 		positions.changePosition ();
 
-		currentHeight = transform.position [1];
-		float delta = Mathf.Abs (currentHeight - lastHeight);
-		if ( delta > .01f ) {
-			lastHeight = currentHeight;
-			isFalling = true;
-		} 
-		else {
-			isFalling = false;		
-		}
 	}
 
 	void checkInput (){
@@ -145,19 +131,7 @@ public class PlayerBrain : MonoBehaviour {
 					animation.setStepTime(.2f);
 				}
 			}
-			// Space is the jump Key
-			if (Input.GetKeyDown (KeyCode.Space) && !isFalling && !jumpLocked) {
-				animation.stopSequence();
-				animation.jump(isWalking);
-				Vector3 movement;
-				movement = new Vector3(0, 1000, 0);
-				if (isWalking){
-					movement += (transform.forward * 200);
-				}
-				GetComponent<Rigidbody>().AddForce(movement);
-				jumpLocked = true;
-				StartCoroutine ( "unlockJump" );
-			}
+
 
 			// X is the sit key
 			if (Input.GetKeyDown (KeyCode.X)) {
@@ -173,14 +147,7 @@ public class PlayerBrain : MonoBehaviour {
 				GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
 			}
 
-			// G is the grab key
-			if (Input.GetKeyDown (KeyCode.G)) {
 
-				animation.pickUp();
-				stopMovement();
-				GetComponent<Rigidbody>().Sleep();
-
-			}
 
 
 		}
