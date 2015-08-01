@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{09D46C85-18F5-5A70-6F0D-8A283DC1BD35}") = "MobileGameDemo", "Assembly-CSharp-firstpass-vs.csproj", "{915FB2BC-EF2D-679A-79F2-A8B01E99B7A2}"
+EndProject
 Project("{09D46C85-18F5-5A70-6F0D-8A283DC1BD35}") = "MobileGameDemo", "Assembly-CSharp-vs.csproj", "{833ABF12-92A0-8284-201C-76762FE002EB}"
 EndProject
 Project("{09D46C85-18F5-5A70-6F0D-8A283DC1BD35}") = "MobileGameDemo", "Assembly-CSharp-Editor-vs.csproj", "{1AFE2968-A31A-5102-D47D-E3990B3C7CC1}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{915FB2BC-EF2D-679A-79F2-A8B01E99B7A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915FB2BC-EF2D-679A-79F2-A8B01E99B7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915FB2BC-EF2D-679A-79F2-A8B01E99B7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915FB2BC-EF2D-679A-79F2-A8B01E99B7A2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{833ABF12-92A0-8284-201C-76762FE002EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{833ABF12-92A0-8284-201C-76762FE002EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{833ABF12-92A0-8284-201C-76762FE002EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-											GlobalSection(MonoDevelopProperties) = preSolution
+																		GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
