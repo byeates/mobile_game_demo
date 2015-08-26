@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TouchMover.cs">
+    <Files>
+      <File FileName="..\Touch testing\Assets\Scripty.cs" Line="65" Column="2" />
+      <File FileName="Assets\Scripts\Controls.cs" Line="1" Column="1" />
+      <File FileName="Assets\WalkerBrain.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TouchMover.cs" Line="71" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
